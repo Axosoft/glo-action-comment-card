@@ -2,7 +2,7 @@ name: 'Glo Add Comment To Card'
 description: 'GitHub Action to add a comment to a card'
 branding:
   color: 'blue'
-  icon: 'tag'
+  icon: 'message-circle'
 inputs:
   authToken:
     description: Auth token for user
