@@ -1,5 +1,5 @@
-name: 'Glo Add Comment To Card'
-description: 'GitHub Action to add a comment to a card'
+name: 'Glo Add Comment To Cards'
+description: 'GitHub action to add a comment to Glo Boards cards'
 branding:
   color: 'blue'
   icon: 'message-circle'
@@ -7,11 +7,8 @@ inputs:
   authToken:
     description: Auth token for user
     required: true
-  boardID:
-    description: ID of board
-    required: true
-  cardID:
-    description: ID of card
+  cards:
+    description: Array of { cardId, boardId } objects
     required: true
   comment:
     description: Comment to add to the card
